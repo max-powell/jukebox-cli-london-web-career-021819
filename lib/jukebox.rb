@@ -27,4 +27,7 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
+  user_input = gets.chomp
+  if user_input <= songs.length || songs.include?(user_input)
+    binding.pry
 end
