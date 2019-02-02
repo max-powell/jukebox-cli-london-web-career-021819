@@ -24,3 +24,6 @@ def list(songs)
     puts "#{index + 1}. #{track}"
   end
 end
+
+def play(songs)
+end
