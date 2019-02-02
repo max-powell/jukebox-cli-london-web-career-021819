@@ -20,7 +20,7 @@ def help
 end
 
 def list(songs)
-  songs.each_with_index do |trakc, index|
+  songs.each_with_index do |track, index|
     puts "#{index + 1}. #{track}"
   end
 end
