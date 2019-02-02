@@ -32,4 +32,5 @@ def play(songs)
   user_input = gets.chomp
   if user_input <= songs.length || songs.include?(user_input)
     binding.pry
+  end
 end
