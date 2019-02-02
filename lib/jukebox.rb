@@ -32,7 +32,7 @@ def play(songs)
   user_input = gets.chomp
   if user_input.to_i > 0 && user_input.to_i <= songs.length
     puts "Playing #{songs[user_input.to_i-1]}"
-  elsif user_input.is_a? String && songs.include?(user_input)
+  elsif songs.include?(user_input)
     puts "Playing #{user_input}"
   else
     puts "Invalid input, please try again."
