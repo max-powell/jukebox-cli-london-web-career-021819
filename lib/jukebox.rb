@@ -19,7 +19,7 @@ def help
   puts help_text
 end
 
-def list
+def list(songs)
   songs.each_with_index do |trac, index|
     puts "#{index + 1}. #{track}"
   end
