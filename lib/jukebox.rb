@@ -18,3 +18,6 @@ def help
 - exit : exits this program"
   puts help_text
 end
+
+def list
+end
